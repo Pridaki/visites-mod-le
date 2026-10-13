@@ -31,3 +31,10 @@ Secret:
 <img width="644" height="404" alt="image" src="https://github.com/user-attachments/assets/43ffe1a2-08f2-4f75-89f2-cead9c8ba18e" />
 
 Comme on peut le voir sur ce screen après exécution de Gitleaks, on ne trouve pas le secret, le jeton n'est pas présent.
+
+
+1 : Humaines : revue et CODEOWNERS. Automatiques : gitleaks en pre-commit et contrôle gitleaks sur la PR. Gitleaks est plus fiable, car il vérifie chaque commit de façon obligatoire, sans oublier d'étape.
+
+2 : Non : le hook est local et peut être contourné . Gitleaks doit tourner dans le pipeline, en contrôle requis, pour que la règle soit vraiment appliquée.
+
+3 : Non : un secret poussé sur un dépôt public n'est pas privé. Des robots peuvent le trouver très vite, en quelques minutes.
