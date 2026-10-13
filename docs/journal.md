@@ -1,6 +1,6 @@
 Questions
 
-TP01: 
+TP01:
 
 1: Le delai de changement est de 19h15 car mon camarade ne pouvait pas approuver la PR
 2: Marcherait comme GitLab, Gitea ou Forgejo :
@@ -26,9 +26,8 @@ La signature est enregistrée dans le commit lui-même : elle prouve qui en est 
 partout et pour toujours, quelle que soit la forge.
 
 TP02:
-Secret: 
+Secret:
 
 <img width="644" height="404" alt="image" src="https://github.com/user-attachments/assets/43ffe1a2-08f2-4f75-89f2-cead9c8ba18e" />
 
 Comme on peut le voir sur ce screen après exécution de Gitleaks, on ne trouve pas le secret, le jeton n'est pas présent.
-
